@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "validatethings423916ac": {}
+      },
+      "storage": {
+        "validatethingsf2be8bce": {
+          "bucketName": "tovalidate",
+          "region": "us-west-2"
+        }
       }
     }
   }
