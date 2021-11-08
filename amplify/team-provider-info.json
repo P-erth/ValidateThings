@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-validatethings-dev-104844-authRole",
+      "UnauthRoleArn": "arn:aws:iam::316503375204:role/amplify-validatethings-dev-104844-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::316503375204:role/amplify-validatethings-dev-104844-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-validatethings-dev-104844-deployment",
+      "UnauthRoleName": "amplify-validatethings-dev-104844-unauthRole",
+      "StackName": "amplify-validatethings-dev-104844",
+      "StackId": "arn:aws:cloudformation:us-west-2:316503375204:stack/amplify-validatethings-dev-104844/98a404f0-409a-11ec-8eb9-0a842ba78b03",
+      "AmplifyAppId": "d33szsrxyeqg4l"
+    },
+    "categories": {
+      "auth": {
+        "validatethings423916ac": {}
+      }
+    }
+  }
+}
