@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 import { Storage } from 'aws-amplify'
@@ -18,6 +17,7 @@ class App extends Component {
   saveFile = () =>{
     Storage.put(this.state.filename, this.state.file)
     .then(()=> {
+      console.log('todo bien cargando imagen')
       this.setState({fileUrl: '', file: '', filename: ''})
     })
     .catch(err => {
@@ -27,11 +27,13 @@ class App extends Component {
   render(){
   return (
     <div className="App">
+      <text> Ingrese CBU </text>
+      <input type='text'/>
       <form className="form-horizontal">
         <input type='file' onChange={this.handleChange}/>
         <img src={this.state.fileUrl}/>
-        <button onClick={this.saveFile}>Save File</button>
       </form>
+        <button onClick={this.saveFile}>Confirmar</button>
       <AmplifySignOut />
     </div>
   );
